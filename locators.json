@@ -1,0 +1,30 @@
+{
+    "Buttonidsubmit": {
+        "screenshot": ".images\\buttonidsubmit-screenshot.png",
+        "source": "http://paoevida.notabe.com/notes/new",
+        "strategy": "xpath",
+        "type": "browser",
+        "value": "//button[@id='submit']"
+    },
+    "DigitarNotas": {
+        "screenshot": ".images\\digitarnotas-screenshot.png",
+        "source": "http://paoevida.notabe.com/",
+        "strategy": "link",
+        "type": "browser",
+        "value": "Digitar Notas"
+    },
+    "Entrar": {
+        "screenshot": ".images\\entrar-screenshot.png",
+        "source": "http://notabe.com/",
+        "strategy": "link",
+        "type": "browser",
+        "value": "Entrar"
+    },
+    "Rkindbtnnthchild1": {
+        "screenshot": ".images\\rkindbtnnthchild1-screenshot.png",
+        "source": "http://paoevida.notabe.com/notes/new",
+        "strategy": "css",
+        "type": "browser",
+        "value": "#rkind > .btn:nth-child(1)"
+    }
+}
